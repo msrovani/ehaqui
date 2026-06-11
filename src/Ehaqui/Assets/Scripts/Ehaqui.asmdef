@@ -1,0 +1,21 @@
+{
+    "name": "Ehaqui",
+    "rootNamespace": "Ehaqui",
+    "references": [
+        "UnityEngine",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "UnityEngine.Purchasing",
+        "Unity.Addressables",
+        "Unity.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
