@@ -1,0 +1,308 @@
+{
+  "_locale": "en",
+  "_name": "ISHERE",
+  "_nameFull": "ISHERE — Real World Treasure Hunt",
+  "_tagline": "It's here!",
+
+  "app": {
+    "name": "ISHERE",
+    "nameFull": "ISHERE — Real World Treasure Hunt",
+    "tagline": "It's here!",
+    "description": "ISHERE is a real-world treasure hunt game powered by P2P. Create, hide, and find treasures with friends — no internet required!",
+    "storeDescription": "ISHERE turns the real world into a playground! Hide treasures, create clue chains, and challenge your friends to find them. With P2P connection (WiFi Direct / Bluetooth), the game works offline. Perfect for kids 6-14 — and the whole family!"
+  },
+
+  "onboarding": {
+    "step1Title": "Welcome to ISHERE!",
+    "step1Subtitle": "The world is your treasure playground",
+    "step2Title": "Dig a treasure first",
+    "step2Subtitle": "Try the game before signing up. No account needed.",
+    "step3Title": "Create your own hunts",
+    "step3Subtitle": "Hide treasures, write clues, challenge friends.",
+    "step4Title": "Connect directly, no server",
+    "step4Subtitle": "WiFi Direct and Bluetooth. Zero cost, endless fun.",
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Let's Go!"
+  },
+
+  "auth": {
+    "createAccount": "Create Account",
+    "login": "Log In",
+    "nickname": "Nickname",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "createFreeAccount": "Create Free Account",
+    "termsAccept": "I accept the Terms of Service and Privacy Policy",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "or continue with",
+    "guest": "Continue as Guest",
+    "logout": "Log Out",
+    "deleteAccount": "Delete Account"
+  },
+
+  "home": {
+    "nearbyTreasures": "Nearby Treasures",
+    "myCreations": "My Treasures",
+    "history": "History",
+    "friends": "Friends",
+    "profile": "Profile",
+    "settings": "Settings",
+    "createTreasure": "Create Treasure",
+    "scanQR": "Scan QR Code",
+    "noTreasuresNearby": "No treasures nearby. Create one!",
+    "connectedPeers": "Nearby players"
+  },
+
+  "treasure": {
+    "virtual": "Virtual Treasure",
+    "physical": "Physical Treasure",
+    "sentimental": "Sentimental Treasure",
+    "highValue": "High Value Treasure",
+    "create": "Create Treasure",
+    "edit": "Edit Treasure",
+    "delete": "Delete Treasure",
+    "name": "Treasure Name",
+    "description": "Description",
+    "hint": "Hint",
+    "prize": "Prize",
+    "location": "Location",
+    "radius": "Discovery radius",
+    "difficulty": "Difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "legendary": "Legendary",
+    "ttl": "Expires in",
+    "ttlNone": "Never expires",
+    "ttl1h": "1 hour",
+    "ttl24h": "24 hours",
+    "ttl7d": "7 days",
+    "ttl30d": "30 days",
+    "chainCount": "Number of clues",
+    "chainMinHint": "Minimum 3, max 10 clues",
+    "chainMinDistance": "Minimum distance between clues",
+    "chainStep": "Clue {n}",
+    "createSuccess": "Treasure created successfully!",
+    "found": "You found a treasure!",
+    "foundBy": "Found by",
+    "neverFound": "Never found",
+    "prizeGrowing": "Prize accumulating: {value}",
+    "requireFeedback": "Leave feedback about the creator of this treasure",
+    "feedbackPlaceholder": "What did you think of this hunt?"
+  },
+
+  "p2p": {
+    "searching": "Searching for nearby players...",
+    "connected": "Connected to {count} player(s)",
+    "inviteSent": "Invite sent!",
+    "inviteReceived": "{name} invited you to a hunt!",
+    "accept": "Accept",
+    "decline": "Decline",
+    "disconnected": "Player disconnected",
+    "connectionError": "Connection error. Try again.",
+    "wifiDirect": "WiFi Direct",
+    "bluetooth": "Bluetooth",
+    "lan": "Local Network (LAN)",
+    "offline": "Offline Mode"
+  },
+
+  "detector": {
+    "title": "Treasure Detector",
+    "cold": "Cold",
+    "warm": "Warm",
+    "hot": "Hot",
+    "veryHot": "Very Hot!",
+    "burning": "BURNING!",
+    "found": "FOUND IT!",
+    "vibrationLevel": "Intensity: {n}",
+    "distance": "Distance: {n}m",
+    "holdStill": "Hold still...",
+    "gettingCloser": "Getting closer!",
+    "movingAway": "Going the wrong way!"
+  },
+
+  "chain": {
+    "title": "Clue Chain",
+    "step": "Clue {current} of {total}",
+    "clue": "Solve the riddle for the next clue",
+    "nextClue": "Clue {n} unlocked!",
+    "finalStep": "Last clue! The treasure is near!",
+    "complete": "Chain complete! Treasure found!",
+    "timePenalty": "Speed bonus: +{points} points",
+    "solveClue": "Solve Riddle"
+  },
+
+  "notification": {
+    "treasureNearby": "There's a hidden treasure nearby!",
+    "treasureExpiring": "Your treasure \"{name}\" is expiring soon!",
+    "treasureFound": "Your treasure \"{name}\" has been found!",
+    "friendOnline": "{name} is online!",
+    "invite": "{name} invited you to a hunt!",
+    "chainStepUnlocked": "New clue unlocked by {name}!",
+    "feedbackReceived": "{name} left feedback on your treasure!",
+    "highValueClaimed": "HIGH VALUE TREASURE CLAIMED: {name} entered the Hall of Fame!"
+  },
+
+  "shop": {
+    "title": "Shop",
+    "cosmetics": "Cosmetics",
+    "pass": "Monthly Pass",
+    "passTitle": "Hunter Pass",
+    "passDescription": "Unlock exclusive items every month!",
+    "passPrice": "$4.99 / mo",
+    "seasonPass": "Season Pass",
+    "seasonPassPrice": "$9.99",
+    "adsFree": "Remove Ads",
+    "adsFreePrice": "$2.99",
+    "coins": "Coins",
+    "coins_100": "100 Coins",
+    "coins_500": "500 Coins (+bonus)",
+    "coins_1200": "1200 Coins (+super bonus)",
+    "purchase": "Buy",
+    "restore": "Restore Purchases",
+    "noAds": "No Ads",
+    "itemEquipped": "Item equipped!",
+    "itemPurchased": "Item purchased!"
+  },
+
+  "social": {
+    "friends": "Friends",
+    "addFriend": "Add Friend",
+    "removeFriend": "Remove Friend",
+    "searchFriend": "Search by nickname",
+    "block": "Block",
+    "report": "Report",
+    "hallOfFame": "Hall of Fame",
+    "leaderboard": "Leaderboard",
+    "achievements": "Achievements",
+    "achievement_10found": "Beginner Hunter — find 10 treasures",
+    "achievement_100found": "Experienced Hunter — find 100 treasures",
+    "achievement_1000found": "Living Legend — find 1000 treasures",
+    "achievement_10created": "Creator — create 10 found treasures",
+    "achievement_chainMaster": "Clue Master — complete 10 chains",
+    "achievement_highValue": "High Value — find a high value treasure",
+    "achievement_firstTreasure": "First Treasure — find your first treasure",
+    "share": "Share",
+    "shareFound": "I found a treasure on ISHERE! 🎉"
+  },
+
+  "b2b": {
+    "forBusiness": "For Business",
+    "businessPlans": "Business Plans",
+    "storePlan": "Store Plan",
+    "storeDescription": "Create treasure hunts in your store. Attract customers with physical treasures.",
+    "storePrice": "$9.99 / mo",
+    "storePriceAnnual": "$99 / year",
+    "studioPlan": "Studio Plan",
+    "studioDescription": "Create theme packs, sound packs, and quest packs for the marketplace.",
+    "studioPrice": "$999",
+    "studioProPrice": "$3,999",
+    "brandedQuest": "Branded Quest",
+    "brandedQuestPrice": "Contact us",
+    "contact": "Contact Us"
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languagePtBr": "Português (Brasil)",
+    "languageEn": "English",
+    "sound": "Sound",
+    "music": "Music",
+    "vibration": "Vibration",
+    "vibrationIntensity": "Vibration Intensity",
+    "notifications": "Notifications",
+    "notificationNearby": "Nearby treasures",
+    "notificationInvites": "Friend invitations",
+    "notificationFeedback": "Feedback received",
+    "privacy": "Privacy",
+    "privacyLocation": "Share location",
+    "privacyOnline": "Show online status",
+    "cache": "Offline Cache",
+    "cacheSize": "Cache size: {size}",
+    "clearCache": "Clear Cache",
+    "about": "About",
+    "version": "Version {v}",
+    "team": "Made with ❤️ in Brazil",
+    "gpsAccuracy": "GPS Accuracy",
+    "highAccuracy": "High accuracy",
+    "batterySave": "Battery saver"
+  },
+
+  "errors": {
+    "generic": "Something went wrong. Try again.",
+    "network": "No connection. Check your internet.",
+    "gpsDisabled": "GPS disabled. Enable in settings.",
+    "locationPermission": "Location permission required.",
+    "p2pTimeout": "No players found nearby.",
+    "treasureNotFound": "Treasure not found. It may have expired.",
+    "qrInvalid": "Invalid QR Code.",
+    "alreadyFound": "You already found this treasure!",
+    "tooFar": "You are too far from the treasure.",
+    "dangerZone": "This area is not safe. Treasure removed.",
+    "feedbackRequired": "Leave feedback before continuing.",
+    "chainIncomplete": "Complete the clue chain first.",
+    "loginFailed": "Invalid email or password.",
+    "nicknameTaken": "Nickname is already taken.",
+    "underage": "You need parental permission to play.",
+    "contractError": "Error validating treasure contract."
+  },
+
+  "offline": {
+    "modeActive": "Offline Mode Active",
+    "cacheAvailable": "Cached maps and treasures available",
+    "syncPending": "{n} action(s) pending sync",
+    "syncNow": "Sync Now",
+    "lastSync": "Last sync: {date}",
+    "noCache": "No cached data. Connect to download.",
+    "encrypted": "Data encrypted with AES-256"
+  },
+
+  "hallOfFame": {
+    "title": "Hall of Fame",
+    "highValueFound": "High Value Treasures Found",
+    "legendaryHunters": "Legendary Hunters",
+    "topCreators": "Top Creators",
+    "rank": "#{n}",
+    "noEntries": "No one has entered the Hall of Fame yet. Be the first!"
+  },
+
+  "feedback": {
+    "title": "Sentimental Feedback",
+    "prompt": "How was the experience finding this treasure?",
+    "fun": "It was fun!",
+    "amazing": "Amazing!",
+    "challenging": "Challenging!",
+    "confusing": "Confusing...",
+    "boring": "Boring",
+    "comment": "Leave a comment? (optional)",
+    "placeholder": "What did you think of this hunt?",
+    "thanks": "Thanks for the feedback! ❤️",
+    "skip": "Skip (feedback required in 3, 2, 1...)"
+  },
+
+  "moderation": {
+    "title": "Moderation",
+    "report": "Report Content",
+    "reportReason": "Report reason",
+    "inappropriate": "Inappropriate content",
+    "dangerous": "Dangerous area",
+    "spam": "Spam",
+    "harassment": "Harassment",
+    "other": "Other",
+    "reported": "Report sent. Thank you!",
+    "blocked": "User blocked.",
+    "safety": "Safety first!"
+  },
+
+  "time": {
+    "justNow": "just now",
+    "minutesAgo": "{n} min ago",
+    "hoursAgo": "{n}h ago",
+    "daysAgo": "{n}d ago",
+    "expiresIn": "expires in {time}",
+    "expired": "expired"
+  }
+}

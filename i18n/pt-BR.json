@@ -1,0 +1,308 @@
+{
+  "_locale": "pt-BR",
+  "_name": "EHAQUI",
+  "_nameFull": "EHAQUI — Caça ao Tesouro no Mundo Real",
+  "_tagline": "É aqui!",
+
+  "app": {
+    "name": "EHAQUI",
+    "nameFull": "EHAQUI — Caça ao Tesouro no Mundo Real",
+    "tagline": "É aqui!",
+    "description": "EHAQUI é um jogo de caça ao tesouro no mundo real com P2P. Crie, esconda e encontre tesouros com os amigos — sem precisar de internet!",
+    "storeDescription": "EHAQUI transforma o mundo real em um parque de diversões! Esconda tesouros, crie correntes de pistas e desafie seus amigos a encontrar. Com conexão P2P (WiFi Direct / Bluetooth), o jogo funciona sem internet. Ideal para crianças de 6 a 14 anos — e para toda a família!"
+  },
+
+  "onboarding": {
+    "step1Title": "Bem-vindo ao EHAQUI!",
+    "step1Subtitle": "O mundo virou um parquinho de caça ao tesouro",
+    "step2Title": "Cave um tesouro antes de tudo",
+    "step2Subtitle": "Teste o jogo antes de criar conta. Sem cadinho, sem frescura.",
+    "step3Title": "Crie suas próprias caçadas",
+    "step3Subtitle": "Esconda tesouros, crie pistas, desafie amigos.",
+    "step4Title": "Conecte-se direto, sem servidor",
+    "step4Subtitle": "WiFi Direct e Bluetooth. Zero custo, diversão infinita.",
+    "skip": "Pular",
+    "next": "Próximo",
+    "start": "Começar!"
+  },
+
+  "auth": {
+    "createAccount": "Criar Conta",
+    "login": "Entrar",
+    "nickname": "Apelido",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar Senha",
+    "createFreeAccount": "Criar Conta Grátis",
+    "termsAccept": "Aceito os Termos de Uso e Política de Privacidade",
+    "forgotPassword": "Esqueceu a senha?",
+    "orContinueWith": "ou continue com",
+    "guest": "Continuar como Convidado",
+    "logout": "Sair",
+    "deleteAccount": "Excluir Conta"
+  },
+
+  "home": {
+    "nearbyTreasures": "Tesouros Próximos",
+    "myCreations": "Meus Tesouros",
+    "history": "Histórico",
+    "friends": "Amigos",
+    "profile": "Perfil",
+    "settings": "Configurações",
+    "createTreasure": "Criar Tesouro",
+    "scanQR": "Escanear QR Code",
+    "noTreasuresNearby": "Nenhum tesouro por perto. Crie um!",
+    "connectedPeers": "Jogadores por perto"
+  },
+
+  "treasure": {
+    "virtual": "Tesouro Virtual",
+    "physical": "Tesouro Físico",
+    "sentimental": "Tesouro Sentimental",
+    "highValue": "Tesouro de Alto Valor",
+    "create": "Criar Tesouro",
+    "edit": "Editar Tesouro",
+    "delete": "Excluir Tesouro",
+    "name": "Nome do Tesouro",
+    "description": "Descrição",
+    "hint": "Dica",
+    "prize": "Prêmio",
+    "location": "Localização",
+    "radius": "Raio de descoberta",
+    "difficulty": "Dificuldade",
+    "easy": "Fácil",
+    "medium": "Médio",
+    "hard": "Difícil",
+    "legendary": "Lendário",
+    "ttl": "Expira em",
+    "ttlNone": "Nunca expira",
+    "ttl1h": "1 hora",
+    "ttl24h": "24 horas",
+    "ttl7d": "7 dias",
+    "ttl30d": "30 dias",
+    "chainCount": "Número de pistas",
+    "chainMinHint": "Mínimo 3, máximo 10 pistas",
+    "chainMinDistance": "Distância mínima entre pistas",
+    "chainStep": "Pista {n}",
+    "createSuccess": "Tesouro criado com sucesso!",
+    "found": "Você encontrou um tesouro!",
+    "foundBy": "Encontrado por",
+    "neverFound": "Nunca encontrado",
+    "prizeGrowing": "Prêmio acumulando: {value}",
+    "requireFeedback": "Deixe um feedback sobre quem criou este tesouro",
+    "feedbackPlaceholder": "O que você achou dessa caçada?"
+  },
+
+  "p2p": {
+    "searching": "Procurando jogadores próximos...",
+    "connected": "Conectado a {count} jogador(es)",
+    "inviteSent": "Convite enviado!",
+    "inviteReceived": "{name} te convidou para uma caçada!",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "disconnected": "Jogador desconectado",
+    "connectionError": "Erro de conexão. Tente novamente.",
+    "wifiDirect": "WiFi Direct",
+    "bluetooth": "Bluetooth",
+    "lan": "Rede Local (LAN)",
+    "offline": "Modo Offline"
+  },
+
+  "detector": {
+    "title": "Detector de Tesouro",
+    "cold": "Frio",
+    "warm": "Morno",
+    "hot": "Quente",
+    "veryHot": "Muito Quente!",
+    "burning": "PEGANDO FOGO!",
+    "found": "ACHOU!",
+    "vibrationLevel": "Intensidade: {n}",
+    "distance": "Distância: {n}m",
+    "holdStill": "Segure firme...",
+    "gettingCloser": "Está perto!",
+    "movingAway": "Foi para o lado errado!"
+  },
+
+  "chain": {
+    "title": "Corrente de Pistas",
+    "step": "Pista {current} de {total}",
+    "clue": "Decifre a charada para a próxima pista",
+    "nextClue": "Pista {n} desbloqueada!",
+    "finalStep": "Última pista! O tesouro está perto!",
+    "complete": "Corrente completa! Tesouro encontrado!",
+    "timePenalty": "Bônus de velocidade: +{points} pontos",
+    "solveClue": "Resolver Charada"
+  },
+
+  "notification": {
+    "treasureNearby": "Tem um tesouro escondido por perto!",
+    "treasureExpiring": "Seu tesouro \"{name}\" vai expirar em breve!",
+    "treasureFound": "Seu tesouro \"{name}\" foi encontrado!",
+    "friendOnline": "{name} está online!",
+    "invite": "{name} te convidou para uma caçada!",
+    "chainStepUnlocked": "Nova pista desbloqueada por {name}!",
+    "feedbackReceived": "{name} deixou feedback sobre seu tesouro!",
+    "highValueClaimed": "TESOURO DE ALTO VALOR RECLAMADO: {name} entrou para o Hall da Fama!"
+  },
+
+  "shop": {
+    "title": "Loja",
+    "cosmetics": "Cosméticos",
+    "pass": "Passe Mensal",
+    "passTitle": "Passe do Caçador",
+    "passDescription": "Desbloqueie itens exclusivos todo mês!",
+    "passPrice": "R$ 14,90 / mês",
+    "seasonPass": "Passe de Temporada",
+    "seasonPassPrice": "R$ 29,90",
+    "adsFree": "Remover Anúncios",
+    "adsFreePrice": "R$ 9,90",
+    "coins": "Moedas",
+    "coins_100": "100 Moedas",
+    "coins_500": "500 Moedas (+bônus)",
+    "coins_1200": "1200 Moedas (+super bônus)",
+    "purchase": "Comprar",
+    "restore": "Restaurar Compras",
+    "noAds": "Sem Anúncios",
+    "itemEquipped": "Item equipado!",
+    "itemPurchased": "Item adquirido!"
+  },
+
+  "social": {
+    "friends": "Amigos",
+    "addFriend": "Adicionar Amigo",
+    "removeFriend": "Remover Amigo",
+    "searchFriend": "Buscar por apelido",
+    "block": "Bloquear",
+    "report": "Denunciar",
+    "hallOfFame": "Hall da Fama",
+    "leaderboard": "Ranking",
+    "achievements": "Conquistas",
+    "achievement_10found": "Caçador Iniciante — encontre 10 tesouros",
+    "achievement_100found": "Caçador Experiente — encontre 100 tesouros",
+    "achievement_1000found": "Lenda Viva — encontre 1000 tesouros",
+    "achievement_10created": "Criador — crie 10 tesouros encontrados",
+    "achievement_chainMaster": "Mestre das Pistas — complete 10 correntes",
+    "achievement_highValue": "Alto Valor — encontre um tesouro de alto valor",
+    "achievement_firstTreasure": "Primeiro Tesouro — encontre seu primeiro tesouro",
+    "share": "Compartilhar",
+    "shareFound": "Encontrei um tesouro no EHAQUI! 🎉"
+  },
+
+  "b2b": {
+    "forBusiness": "Para Empresas",
+    "businessPlans": "Planos Empresariais",
+    "storePlan": "Plano Loja",
+    "storeDescription": "Crie caçadas na sua loja. Atraia clientes com tesouros físicos.",
+    "storePrice": "R$ 29,90 / mês",
+    "storePriceAnnual": "R$ 299 / ano",
+    "studioPlan": "Plano Estúdio",
+    "studioDescription": "Crie pacotes de tema, som e missão para o marketplace.",
+    "studioPrice": "R$ 4.990",
+    "studioProPrice": "R$ 19.990",
+    "brandedQuest": "Caçada Patrocinada",
+    "brandedQuestPrice": "Consultar",
+    "contact": "Fale Conosco"
+  },
+
+  "settings": {
+    "title": "Configurações",
+    "language": "Idioma",
+    "languagePtBr": "Português (Brasil)",
+    "languageEn": "English",
+    "sound": "Som",
+    "music": "Música",
+    "vibration": "Vibração",
+    "vibrationIntensity": "Intensidade da Vibração",
+    "notifications": "Notificações",
+    "notificationNearby": "Tesouros próximos",
+    "notificationInvites": "Convites de amigos",
+    "notificationFeedback": "Feedback recebido",
+    "privacy": "Privacidade",
+    "privacyLocation": "Compartilhar localização",
+    "privacyOnline": "Mostrar online",
+    "cache": "Cache Offline",
+    "cacheSize": "Tamanho do cache: {size}",
+    "clearCache": "Limpar Cache",
+    "about": "Sobre",
+    "version": "Versão {v}",
+    "team": "Feito com ❤️ no Brasil",
+    "gpsAccuracy": "Precisão do GPS",
+    "highAccuracy": "Alta precisão",
+    "batterySave": "Economia de bateria"
+  },
+
+  "errors": {
+    "generic": "Algo deu errado. Tente novamente.",
+    "network": "Sem conexão. Verifique sua internet.",
+    "gpsDisabled": "GPS desativado. Ative nas configurações.",
+    "locationPermission": "Permissão de localização necessária.",
+    "p2pTimeout": "Nenhum jogador encontrado por perto.",
+    "treasureNotFound": "Tesouro não encontrado. Pode ter expirado.",
+    "qrInvalid": "QR Code inválido.",
+    "alreadyFound": "Você já encontrou este tesouro!",
+    "tooFar": "Você está muito longe do tesouro.",
+    "dangerZone": "Esta área não é segura. Tesouro removido.",
+    "feedbackRequired": "Deixe um feedback antes de continuar.",
+    "chainIncomplete": "Complete a corrente de pistas primeiro.",
+    "loginFailed": "E-mail ou senha inválidos.",
+    "nicknameTaken": "Apelido já está em uso.",
+    "underage": "Você precisa ter permissão dos pais para jogar.",
+    "contractError": "Erro ao validar contrato do tesouro."
+  },
+
+  "offline": {
+    "modeActive": "Modo Offline Ativo",
+    "cacheAvailable": "Mapas e tesouros em cache disponíveis",
+    "syncPending": "{n} ação(ões) pendente(s) de sincronização",
+    "syncNow": "Sincronizar Agora",
+    "lastSync": "Última sincronização: {date}",
+    "noCache": "Nenhum dado em cache. Conecte-se para baixar.",
+    "encrypted": "Dados criptografados com AES-256"
+  },
+
+  "hallOfFame": {
+    "title": "Hall da Fama",
+    "highValueFound": "Tesouros de Alto Valor Encontrados",
+    "legendaryHunters": "Caçadores Lendários",
+    "topCreators": "Melhores Criadores",
+    "rank": "#{n}",
+    "noEntries": "Ninguém entrou para o Hall da Fama ainda. Seja o primeiro!"
+  },
+
+  "feedback": {
+    "title": "Feedback Sentimental",
+    "prompt": "Como foi a experiência de encontrar este tesouro?",
+    "fun": "Foi divertido!",
+    "amazing": "Incrível!",
+    "challenging": "Desafiador!",
+    "confusing": "Confuso...",
+    "boring": "Sem graça",
+    "comment": "Quer deixar um comentário? (opcional)",
+    "placeholder": "O que você achou dessa caçada?",
+    "thanks": "Obrigado pelo feedback! ❤️",
+    "skip": "Pular (feedback obrigatório em 3, 2, 1...)"
+  },
+
+  "moderation": {
+    "title": "Moderação",
+    "report": "Denunciar Conteúdo",
+    "reportReason": "Motivo da denúncia",
+    "inappropriate": "Conteúdo inapropriado",
+    "dangerous": "Área perigosa",
+    "spam": "Spam",
+    "harassment": "Assédio",
+    "other": "Outro",
+    "reported": "Denúncia enviada. Obrigado!",
+    "blocked": "Usuário bloqueado.",
+    "safety": "Segurança em primeiro lugar!"
+  },
+
+  "time": {
+    "justNow": "agora mesmo",
+    "minutesAgo": "há {n} min",
+    "hoursAgo": "há {n} h",
+    "daysAgo": "há {n} d",
+    "expiresIn": "expira em {time}",
+    "expired": "expirado"
+  }
+}

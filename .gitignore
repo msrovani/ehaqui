@@ -1,0 +1,61 @@
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# IDE
+.idea/
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Engine (Unity)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+UnityGenerated/
+UnityLinker/
+
+# Engine (Godot)
+.godot/
+import/
+*.mono
+*.godot.bak
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Dotnet
+bin/
+obj/
+*.nupkg
+
+# Coverage
+coverage/
+*.coverlet.*
+*.trx
+
+# Crypto / secrets
+*.key
+*.pem
+secrets.*
+.env
+*.env.local
+
+# Large files
+*.psd
+*.tga
+*.fbx
+*.mp4
+*.wav
+*.pdb

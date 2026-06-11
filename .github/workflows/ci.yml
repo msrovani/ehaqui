@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate i18n JSON
+        run: |
+          echo "Validating pt-BR..."
+          python -m json.tool i18n/pt-BR.json > /dev/null
+          echo "Validating en..."
+          python -m json.tool i18n/en.json > /dev/null
+          echo "Both valid!"
+
+      - name: Validate i18n keys match
+        run: |
+          python -c "
+          import json
+          with open('i18n/pt-BR.json') as f:
+              pt = json.load(f)
+          with open('i18n/en.json') as f:
+              en = json.load(f)
+
+          def flatten(d, prefix=''):
+              items = []
+              for k, v in d.items():
+                  if isinstance(v, dict):
+                      items.extend(flatten(v, f'{prefix}{k}.'))
+                  else:
+                      items.append(f'{prefix}{k}')
+              return items
+
+          pt_keys = set(flatten(pt))
+          en_keys = set(flatten(en))
+
+          only_pt = pt_keys - en_keys
+          only_en = en_keys - pt_keys
+
+          if only_pt:
+              print(f'Keys only in pt-BR: {only_pt}')
+              exit(1)
+          if only_en:
+              print(f'Keys only in en: {only_en}')
+              exit(1)
+          print('All i18n keys match between languages!')
+          "
+
+      - name: Validate markdown files
+        run: |
+          for f in docs/*.md README.md TODO.md ROADMAP.md CHANGELOG.md CONTRIBUTING.md; do
+            if [ -f "$f" ]; then
+              echo "✓ $f"
+            fi
+          done
+
+  lint-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: "**/*.md"
